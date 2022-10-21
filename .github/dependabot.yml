@@ -7,3 +7,4 @@ updates:
     allow:
       # Allow updates for Lodash
       - dependency-name: "whatsmeow"
+      - dependency-name: "go.mau.fi/whatsmeow"
