@@ -1,10 +1,7 @@
 version: 2
 updates:
-  - package-ecosystem: gomod
-    directory: /
-    schedule:
-      interval: daily
-    allow:
-      # Allow updates for Lodash
-      - dependency-name: "whatsmeow"
-      - dependency-name: "go.mau.fi/whatsmeow"
+- package-ecosystem: gomod
+  directory: "/"
+  schedule:
+    interval: daily
+  open-pull-requests-limit: 10
